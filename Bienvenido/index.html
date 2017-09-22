@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--Yey nuevas librerias divertdas ppr aca-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+    <style>
+        .prueba {
+            background-color: #0653f8;
+            border: none;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            color: white;
+            transition: 0.5s ease-in;
+            -webkit-transition: 0.5s ease-in;
+            -o-transition: 0.5s ease-in;
+        }
+        
+        .prueba:hover {
+            background-color: rgba( 243, 36, 36, 0.725);
+        }
+        
+        .min-h {
+            min-height: 100vh;
+            color: white;
+            font-size:
+        }
+        
+        .bg-v1 {
+            background-color: rgba( 0, 102, 219, 0.5);
+        }
+        
+        .bg-v2 {
+            background-color: rgba( 0, 102, 100, 0.5);
+        }
+        
+        .bg-v3 {
+            background-color: rgba( 0, 102, 10, 0.5);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h4 class="text-center ">
+        Imagino que es complejo de interpretar, pero si este es un playground independiente para proyects, pruebas y otros elementos de librerias que se pretenden publicar y comentar, será muy divertido
+    </h4>
+
+    <div class="row mt-3">
+        <div class="col-md-4 bg-v1 min-h">
+            Variantes1
+        </div>
+        <div class="col-md-4 bg-v2 min-h">
+            Variantes 2
+        </div>
+        <div class="col-md-4 bg-v3 min-h">
+            Variantes 3
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12 text-center">
+            <button class="prueba">
+            Boton de pruebas
+        </button>
+        </div>
+    </div>
+
+
+    <script>
+        $(".prueba").click(function() {
+            alert('Ok esto es mas una especie de prueba de funcionalidades para ver que tan expertos somos con estas herramientas');
+        });
+
+    </script>
+</body>
+
+</html>
